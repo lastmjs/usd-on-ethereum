@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>USD on Ethereum</title>
+        <script src="services/process-polyfill.js"></script>
+        <script type="module" src="elements/usde-app.ts"></script>
+        <link rel="icon" href="quarter.png">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61431139-6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-61431139-6', { anonymize_ip: true });
+        </script>
+        <meta name="description" content="Tracks United States Dollars (USD) that have been tokenized and issued on the Ethereum blockchain">
+    </head>
+
+    <body>
+        <usde-app></usde-app>        
+    </body>
+</html>
