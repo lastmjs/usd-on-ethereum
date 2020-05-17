@@ -62,6 +62,72 @@ const InitialState: Readonly<State> = {
             ],
             functionName: 'totalSupply',
             href: 'https://etherscan.io/token/0x0000000000085d4780B73119b644AE5ecd22b376'
+        },
+        {
+            name: 'BUSD',
+            decimals: 18,
+            totalSupply: 'NOT_SET',
+            contractAddress: '0x4Fabb145d64652a948d72533023f6E7A623C7C53',
+            abi: [
+                'function totalSupply() public view returns (uint256 supply)'
+            ],
+            functionName: 'totalSupply',
+            href: 'https://etherscan.io/token/0x4Fabb145d64652a948d72533023f6E7A623C7C53'
+        },
+        {
+            name: 'GUSD',
+            decimals: 2,
+            totalSupply: 'NOT_SET',
+            contractAddress: '0x056fd409e1d7a124bd7017459dfea2f387b6d5cd',
+            abi: [
+                'function totalSupply() public view returns (uint256 supply)'
+            ],
+            functionName: 'totalSupply',
+            href: 'https://etherscan.io/token/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd'
+        },
+        {
+            name: 'PAX',
+            decimals: 18,
+            totalSupply: 'NOT_SET',
+            contractAddress: '0x8e870d67f660d95d5be530380d0ec0bd388289e1',
+            abi: [
+                'function totalSupply() public view returns (uint256 supply)'
+            ],
+            functionName: 'totalSupply',
+            href: 'https://etherscan.io/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1'
+        },
+        {
+            name: 'HUSD',
+            decimals: 8,
+            totalSupply: 'NOT_SET',
+            contractAddress: '0xdf574c24545e5ffecb9a659c229253d4111d87e1',
+            abi: [
+                'function totalSupply() public view returns (uint256 supply)'
+            ],
+            functionName: 'totalSupply',
+            href: 'https://etherscan.io/token/0xdf574c24545e5ffecb9a659c229253d4111d87e1?a=0x2faf487a4414fe77e2327f0bf4ae2a264a776ad2'
+        },
+        {
+            name: 'sUSD',
+            decimals: 18,
+            totalSupply: 'NOT_SET',
+            contractAddress: '0x57ab1e02fee23774580c119740129eac7081e9d3',
+            abi: [
+                'function totalSupply() public view returns (uint256 supply)'
+            ],
+            functionName: 'totalSupply',
+            href: 'https://etherscan.io/token/0x57ab1e02fee23774580c119740129eac7081e9d3'
+        },
+        {
+            name: 'USDK',
+            decimals: 18,
+            totalSupply: 'NOT_SET',
+            contractAddress: '0x1c48f86ae57291f7686349f12601910bd8d470bb',
+            abi: [
+                'function totalSupply() public view returns (uint256 supply)'
+            ],
+            functionName: 'totalSupply',
+            href: 'https://etherscan.io/token/0x1c48f86ae57291f7686349f12601910bd8d470bb'
         }
     ]
 };
