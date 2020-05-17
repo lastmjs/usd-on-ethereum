@@ -286,7 +286,7 @@ class USDEApp extends HTMLElement {
 
                 <div style="color: grey; display: flex; flex-direction: column; align-items: center; font-size: calc(10px + 1vmin); margin-top: calc(50px + 1vmin);">
                     <div>See also <a href="https://btconethereum.com" target="_blank">BTC on Ethereum</a></div>
-                    <div>Feedback (especially any missed tokens): <a href="https://twitter.com/lastmjs" target="_blank">Twitter</a>,<a href="https://t.me/lastmjs" target="_blank">Telegram</a>,<a href="mailto:jordan.michael.last@gmail.com">Email</a></div>
+                    <div>Feedback (especially any missed tokens): <a href="https://twitter.com/lastmjs" target="_blank">Twitter</a>, <a href="https://t.me/lastmjs" target="_blank">Telegram</a>, <a href="mailto:jordan.michael.last@gmail.com">Email</a></div>
                     <div><a href="privacy.html">Privacy</a></div>
                     <div><a href="oss-attribution/attribution.txt">Open Source</a></div>
                 </div>
