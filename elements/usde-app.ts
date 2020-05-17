@@ -207,6 +207,8 @@ class USDEApp extends HTMLElement {
             return result.plus(usdToken.totalSupply);
         }, new BigNumber(0));
 
+        const hoverText: string = 'The USD amount shown represents the total token supply, and may not reflect the true market price';
+
         return html`
             <style>
                 body {
@@ -264,7 +266,7 @@ class USDEApp extends HTMLElement {
 
             <div class="usde-token-main-container">
                 <div style="display: flex; justify-content: center">
-                    <a class="usde-token-card" href="/">
+                    <a class="usde-token-card" href="/" title="${hoverText}">
                         <div class="usde-amount-usd-text">${totalResult === 'Loading...' ? 'Loading...' : formatBigNumberUSDForDisplay(totalResult)}</div>
                         <div class="usde-description-text">Total USD on Ethereum</div>
                     </a>
@@ -273,7 +275,7 @@ class USDEApp extends HTMLElement {
                 <div class="usde-token-card-container">
                     ${state.usdTokens.map((usdToken: Readonly<USDToken>) => {
                         return html`
-                            <a class="usde-token-card" href="${usdToken.href}" target="_blank">
+                            <a class="usde-token-card" href="${usdToken.href}" target="_blank" title="${hoverText}">
                                 <div class="usde-amount-usd-text">${usdToken.totalSupply === 'NOT_SET' ? 'Loading...' : formatBigNumberUSDForDisplay(usdToken.totalSupply)}</div>
                                 <div class="usde-description-text">${usdToken.name}</div>
                             </a>
@@ -282,7 +284,7 @@ class USDEApp extends HTMLElement {
                 </div>
 
                 <div style="color: grey; display: flex; flex-direction: column; align-items: center; font-size: calc(10px + 1vmin); margin-top: calc(50px + 1vmin);">
-                    <div>Feedback: <a href="https://t.me/lastmjs" target="_blank">@lastmjs</a></div>
+                    <div>Feedback: <a href="https://twitter.com/lastmjs" target="_blank">Twitter</a>,<a href="https://t.me/lastmjs" target="_blank">Telegram</a>,<a href="mailto:jordan.michael.last@gmail.com">Email</a></div>
                     <div><a href="privacy.html">Privacy</a></div>
                     <div><a href="oss-attribution/attribution.txt">Open Source</a></div>
                 </div>
