@@ -128,6 +128,17 @@ const InitialState: Readonly<State> = {
             ],
             functionName: 'totalSupply',
             href: 'https://etherscan.io/token/0x1c48f86ae57291f7686349f12601910bd8d470bb'
+        },
+        {
+            name: 'USDQ',
+            decimals: 18,
+            totalSupply: 'NOT_SET',
+            contractAddress: '0x4954db6391f4feb5468b6b943d4935353596aec9',
+            abi: [
+                'function totalSupply() public view returns (uint256 supply)'
+            ],
+            functionName: 'totalSupply',
+            href: 'https://etherscan.io/token/0x4954db6391f4feb5468b6b943d4935353596aec9'
         }
     ]
 };
