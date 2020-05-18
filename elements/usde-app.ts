@@ -150,6 +150,17 @@ const InitialState: Readonly<State> = {
             ],
             functionName: 'totalSupply',
             href: 'https://etherscan.io/token/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359'
+        },
+        {
+            name: 'RSV',
+            decimals: 18,
+            totalSupply: 'NOT_SET',
+            contractAddress: '0x1C5857e110CD8411054660F60B5De6a6958CfAE2',
+            abi: [
+                'function totalSupply() public view returns (uint256 supply)'
+            ],
+            functionName: 'totalSupply',
+            href: 'https://etherscan.io/token/0x1C5857e110CD8411054660F60B5De6a6958CfAE2'
         }
     ]
 };
