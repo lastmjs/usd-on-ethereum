@@ -139,6 +139,17 @@ const InitialState: Readonly<State> = {
             ],
             functionName: 'totalSupply',
             href: 'https://etherscan.io/token/0x4954db6391f4feb5468b6b943d4935353596aec9'
+        },
+        {
+            name: 'SAI',
+            decimals: 18,
+            totalSupply: 'NOT_SET',
+            contractAddress: '0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359',
+            abi: [
+                'function totalSupply() public view returns (uint256 supply)'
+            ],
+            functionName: 'totalSupply',
+            href: 'https://etherscan.io/token/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359'
         }
     ]
 };
