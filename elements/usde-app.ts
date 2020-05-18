@@ -273,6 +273,8 @@ class USDEApp extends HTMLElement {
                     </a>
                 </div>
 
+                <div style="color: black; display: flex; justify-content: center; font-size: calc(25px + 1vmin)">Historical data (charts) coming soon!</div>
+
                 <div class="usde-token-card-container">
                     ${state.usdTokens.map((usdToken: Readonly<USDToken>) => {
                         return html`
