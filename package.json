@@ -4,7 +4,8 @@
   "description": "Tracking the supply and growth of USD on Ethereum",
   "scripts": {
     "start": "zwitterion --port 6799",
-    "build": "zwitterion --port 6799 --build-static --exclude node_modules --include lit-html,reduxular,redux/es,ethers/dist",
+    "build": "zwitterion --port 6799 --build-static --exclude node_modules --include lit-html,reduxular,redux/es,ethers/dist && npm run clean-up-for-ic-deploy",
+    "clean-up-for-ic-deploy": "rm -r dist/node_modules/typescript && rm dist/node_modules/aes-js/test/test-vectors.json && rm dist/node_modules/binaryen/index.js",
     "install": "generate-attribution"
   },
   "repository": {
